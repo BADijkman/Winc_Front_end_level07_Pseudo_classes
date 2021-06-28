@@ -1,0 +1,50 @@
+body, a{
+    font-size: 20px;
+}
+
+.link a:hover{
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link2 a:active{
+    color:red;
+    font-style: italic;
+}
+
+.link3 a:visited{
+    color:yellow;
+}
+
+.inputfield:focus{
+    font-size: 30px;
+    color: green;
+}
+
+ul{
+    padding-inline-start: 0px;  
+}
+
+.navbar{
+    width: 400px;
+    background-color: darkblue;
+}
+
+.navbar a:hover, .zoekbalk:hover{
+    background-color: darkturquoise;
+}
+
+.zoekbalk:focus{
+    border: 3px solid aqua;
+}
+
+.navbar .currentPage{
+    background-color: rgb(77, 77, 91);
+}
+
+.navbar li{
+    display: inline;
+    padding-right: 40px;
+    
+    
+}
